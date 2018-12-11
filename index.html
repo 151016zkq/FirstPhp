@@ -4,9 +4,21 @@
 <head>
     <!--设置页面的编码方式-->
     <meta charset="UTF-8" content="text/html">
+    <meta name="author" content="root">
+    <meta name="">
     <title>welcome</title>
+    <!--<base href="http://www.baidu.com" target="_blank">-->
+    <!--rel应该是连接的类型，type是连接文件的类型-->
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    <meta name="description" content="HTML, CSS, XML, XHTML, JavaScript">
+    <!--设置关键词，搜索引擎看-->
+    <meta name="keywords" content="网站建设">
+    <meta http-equiv="refresh" content="30">
+    <script></script>
 </head>
-<body bgcolor="white" background="./images/timg.gif">
+<body bgcolor="white">
+<div class="div4"></div>
+
 <!--<form method="post" action="welcome.php">-->
     <!--<select multiple="multiple" name="q[]">-->
         <!--<option value="">选择一个站点：</option>-->
@@ -16,20 +28,181 @@
 
     <!--</select>-->
 <!--<input type="submit" value=" 提交 ">-->
-<!--</form>-->5
+<!--</form>-->
 <!--下划线-->
-<u>下划线</u>
-<br>
-<i>倾斜</i>
-<br>
-<b>加粗</b>
-<br>
-<b><i><u>加粗倾斜下划线</u></i></b>
-<!--这两个对搜索引擎优化-->
-<strong>强调标记，通过加粗来强调</strong>
-<em>倾斜的方式来强调</em>
-<sup>上标</sup>
-<sub>下标</sub>
-<hr width="300px" color="#333333" size="9">
+<!--<u>下划线</u>-->
+<!--<br>-->
+<!--<i>倾斜</i>-->
+<!--<br>-->
+<!--<b>加粗</b>-->
+<!--<br>-->
+<!--<font face="华文行楷" size="18" color="aqua">锄禾日当午</font>-->
+<!--<b><i><u>加粗倾斜下划线</u></i></b>-->
+<!--&lt;!&ndash;这两个对搜索引擎优化&ndash;&gt;-->
+<!--<strong>强调标记，通过加粗来强调</strong>-->
+<!--<em>倾斜的方式来强调</em>-->
+<!--<sup>上标</sup>-->
+<!--<sub>下标</sub>-->
+<!--<hr width="300px" color="#333333" size="9">-->
+<!--<h1 align="center">标题一</h1>-->
+<!--<h2>标题二</h2>-->
+<!--<h3>标题三</h3>-->
+<!--&lt;!&ndash;有序列表,type指定索引是什么。start值当开始的&ndash;&gt;-->
+<!--<ol type="A" start="3">-->
+    <!--<li>第一行</li>-->
+    <!--<li>第二行</li>-->
+    <!--<li>第三行</li>-->
+<!--</ol>-->
+<!--&lt;!&ndash;无序列表&ndash;&gt;-->
+<!--<ul>-->
+    <!--<li>第一行</li>-->
+    <!--<li>第二行</li>-->
+    <!--<li>第三行</li>-->
+<!--</ul>-->
+<!--&lt;!&ndash;定义列表&ndash;&gt;-->
+<!--<dl>-->
+    <!--<dt>标题一</dt>-->
+    <!--<dd>value1</dd>-->
+    <!--<dt>标题二</dt>-->
+    <!--<dd>value2</dd>-->
+<!--</dl>-->
+<!--&lt;!&ndash;块元素&ndash;&gt;-->
+<!--<div style="background: red;width: 100px">HTML</div>-->
+<!--&lt;!&ndash;内容有多大。就占多大,一般是在div中使用&ndash;&gt;-->
+<!--<span style="background: green;width: 100px;">CSS</span>-->
+
+<!--<div style="background: yellow;width: 50%;height: 100px">-->
+    <!--<span style="background: red">这是我的东西</span>-->
+    <!--&lt;!&ndash;填写图片&ndash;&gt;-->
+    <!--<img src="images/timg.gif" alt="这是一张图片" align="left" border="0">-->
+    <!--&lt;!&ndash;border设置边框的厚度hspace是左右的距离，hspace是上下的的距离&ndash;&gt;-->
+    <!--<a href="cc"><img src="images/timg.gif" alt="这是一张图片" align="left" border="0" hspace="100"></a>-->
+    <!--&lt;!&ndash;图片和文字的排版&ndash;&gt;-->
+    <!--&lt;!&ndash;使用图片的属性，align和css中的漂浮和像&ndash;&gt;-->
+
+
+<!--</div>-->
+
+<!--<img src="images/timg.gif" alt="这是一张图片">-->
+<!--<style type="text/css">-->
+    <!--.div1{-->
+        <!--background: red;-->
+        <!--width: 100px;-->
+        <!--height: 100px;-->
+    <!--}-->
+    <!--.div2{background: green;width: 100px;height: 100px}-->
+    <!--.div3{-->
+        <!--background: aqua;-->
+        <!--width: 40%;-->
+        <!--height: 100px;-->
+
+    <!--}-->
+<!--</style>-->
+<!--<div class="div1">-->
+    <!--<div class="div3">div3</div>-->
+<!--</div>-->
+<!--<div class="div2"></div>-->
+<!--<a href="http://www.baidu.com" target="_self">百度</a>-->
+
+<!--<div class="div4">-->
+    <!--<div class="div5">-->
+        <!--<div class="div6">-->
+
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--跨页面的锚点-->
+<!--<a name="jump"></a>-->
+<!--<form name="name" action="index2.php" method="get">-->
+    <!--姓名：<input name="userName" value="zhangkaiqiang" type="text">-->
+    <!--<input type="submit" value="提交">-->
+
+<!--</form>-->
+
+<!--单选-->
+<form name="sex" action="index2.php" method="post">
+    姓名：<input name="userName" value="zhangkaiqiang" type="text">
+    <br>
+    密码：<input type="password" name="passwordNew">
+    <br>
+    确认密码: <input type="password" name="passwordOld">
+    <br>
+    性别：<input type="radio" name="sex" value="男">男
+        <input type="radio" name="sex" value="女">女
+        <input type="radio" name="sex" value="中间">中间
+    <br>
+    爱好:<input type="checkbox" name="city[]" value="篮球">篮球
+        <input type="checkbox" name="city[]" value="足球">足球
+        <input type="checkbox" name="city[]" value="羽毛球">羽毛球
+        <input type="checkbox" name="city[]" value="游泳">游泳
+    <br>
+    名称：
+        <select name="select">
+            <option value="1" selected="selected">选项一</option>
+            <option value="2" >选项二</option>
+            <option value="3">选项三</option>
+        </select>
+    <br>
+    <input type="submit" value="提交">
+</form>
+<!--多选-->
+
+<!--表格-->
+<table border="1px"width="300" height="100" bgcolor="#faebd7" align="center" cellspacing="10" cellpadding="50">
+    <tr bgcolor="green" height="50"align="center">
+        <td>第一列</td>
+        <td>第二列</td>
+        <td>第三列</td>
+
+    </tr>
+    <tr bgcolor="red" height="30">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+
+
+</table>
+
+<table width="500" height="200" border="1" align="center" bordercolor="blue">
+    <caption>课程表</caption>
+    <tbody>
+        <tr>
+            <th>其实是这样</th>
+            <th colspan="5">我的名字</th>
+            <th colspan="2" rowspan="2">就是这个样子</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="4"></td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="width: 200px; height: 200px; background: aqua">
+    <span style="color: red; width: 100px; height: auto; font-size: 20px;
+     background: pink; display: block; border: 2px solid red;padding: 5px; margin: 10px;
+    float: left">
+        这是一行
+    </span>
+</div>
+
+
+
+
+
+
 </body>
 </html>

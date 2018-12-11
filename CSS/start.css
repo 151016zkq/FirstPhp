@@ -1,0 +1,65 @@
+/*在css文件中引入另一个文件css*/
+@import url("index.css");
+
+
+.div1{
+    opacity: 0.5;
+    /*static定位会忽略left,right,top,bottom, z-index*/
+    position: absolute;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+    background: #40B3DF;
+}
+.p1{
+    font-size: 25px;
+    font-family: MingLiU;
+    font-weight: bolder;
+    font-style: italic;
+}
+/*文本属性*/
+.div2{
+    width: 100px;
+    height: 300px;
+    background: black url("/images/timg.gif");
+    /*平铺方式*/
+    background-repeat: repeat-x;
+    /*定位*/
+    background-position: center center;
+    /*北京图片固定*/
+    background-attachment: fixed;
+    /*文本颜色*/
+    color: red;
+    text-align: center;
+    /*首行缩进像素*/
+    text-indent: 30px;
+    /*修饰线*/
+    text-decoration: underline;
+    /*单词间距*/
+    word-spacing: 10px;
+    /*字间距*/
+    letter-spacing: 2px;
+    /*行高*/
+    line-height: 30px;
+}
+
+
+
+/*.div2{*/
+    /*opacity: 0.5;*/
+    /*!*规定元素的字体系列*!*/
+    /*font-family: Verdana;*/
+    /*padding: 100px;*/
+    /*border-radius: 10px;*/
+    /*border: 10px;*/
+    /*solid-color: red;*/
+
+/*}*/
+/*.div3{*/
+    /*opacity: 0.3;*/
+    /*position: absolute;*/
+    /*left: 120px;*/
+    /*width: 100px;*/
+    /*height: 200px;*/
+    /*background: #8ac007;*/
+/*}*/
