@@ -15,6 +15,27 @@
     <meta name="keywords" content="网站建设">
     <meta http-equiv="refresh" content="30">
     <script></script>
+    <style>
+        body{
+            font-size: 14px;
+            color: green;
+        }
+        .timg {
+            background: white;
+            width: 500px;
+            height: 500px;
+            margin: 0px auto;
+            border: 1px solid red;
+
+        }
+        .timg1{
+            width: 250px;
+            height: 200px;
+
+        }
+
+
+    </style>
 </head>
 <body bgcolor="white">
 <div class="div4"></div>
@@ -191,17 +212,24 @@
     </tbody>
 </table>
 
-<div style="width: 200px; height: 200px; background: aqua">
+<div style="width: 200px; height: 200px; background: aqua; margin: auto">
     <span style="color: red; width: 100px; height: auto; font-size: 20px;
      background: pink; display: block; border: 2px solid red;padding: 5px; margin: 10px;
     float: left">
         这是一行
     </span>
 </div>
-
-
-
-
+<!--清除浮动，在清除浮动后，浮动造成的效果是不会改变的。要写在浮动div的下面。要不然可能没有效果-->
+<div style="clear: both"></div>
+<div class="timg">
+    <div class="timg1">
+        <img src="./images/timg.gif" style= "width: 250px; height: 200px">
+        <p style="text-align: center"><a href="#">这是一个超链接</a></p>
+    </div>
+    <div class="timg2"></div>
+    <div class="timg3"></div>
+    <div class="timg4"></div>
+</div>
 
 
 </body>
