@@ -27,6 +27,19 @@ if ($id == 1) {
 }else {
     include './index3.html';
 }
+//计算一张纸折叠几次后，厚度超过一米
+//一张纸厚度是0.01毫米
+$height = 0.1/1000;/*厘米*/
+
+$i = 1;
+while ($i <= 30) {
+    $height *= 2;
+    if ($height>=1 && $height<=2) {
+        echo $height;
+    }
+}
+
+
 
 
 function myTest() {
