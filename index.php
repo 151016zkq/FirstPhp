@@ -7,8 +7,28 @@
  */
 echo  "张凯强";
 
+$userName = isset($_POST["username"]) ? $_POST["username"] : "";
+$passWord = isset($_POST['password']) ? $_POST['password'] : "";
+var_dump($userName);
+var_dump($passWord);
+//session开启session功能，每个页面必须都开启一次。
+session_start();
+$_SESSION['userName'] = $userName;
+
 $x=5;
 $y=10;
+
+
+$id = isset($_GET["id"]) ? $_GET['id'] : 1;
+if ($id == 1) {
+    include './index.html';
+}elseif ($id == 2) {
+    include "./index2.html";
+}else {
+    include './index3.html';
+}
+
+
 function myTest() {
     global $x, $y;
     $y=$x+$y;
